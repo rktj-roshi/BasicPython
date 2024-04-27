@@ -14,6 +14,6 @@ sp=[s for s in re.split('[ ,.\n]',text)if s]
 
 number=list(map(len,sp))
 
-result = ''.join(str(num) for num in number)
+result= ''.join(str(num) for num in number)
 
 print(result)
